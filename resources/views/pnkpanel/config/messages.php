@@ -1,0 +1,40 @@
+<?php
+config('messages.msg_add');
+return [
+    'msg_login_expired' => 'Your login session is expired, please re-login',
+    'msg_rights' 		=> 'Sorry! you do not have sufficient rights to view the requested page! Please Contact System Administrator!', // You are not authorised to view this page
+    'msg_invalid_user' 	=> 'Incorrect E-mail or Password...Please Try Again',
+    'msg_logout' 		=> 'Logged Out from Admin Area',
+    'msg_status' 		=> 'Record(s) Status Updated Successfully',
+    'msg_status_err' 		=> 'Cannot Update Status, Please Try Again',
+    // Added code for Category Tile Images as on 19-10-2022 Start
+    'msg_tile_update_err' 	=> 'Please fill Category Tile Images form data',
+    // Added code for Category Tile Images as on 19-10-2022 End
+    'msg_add' 			=> 'Record added successfully',
+    'msg_add_err' 		=> 'Cannot Add, Please Try Again',
+    'msg_update' 		=> 'Record updated successfully',
+    'msg_update_err' 	=> 'Cannot Update, Please Try Again',
+    'msg_delete' 		=> 'Record(s) deleted successfully',
+    'msg_delete_err' 		=> 'Cannot Delete, successfully',
+    'msg_email_found' 		=> 'E-mail address already exists',
+    'msg_date_comp' 		=> 'End date should be greater then start date',
+    'msg_already_exists' 	=> 'Record Already Exists',
+    'msg_token_expired' 	=> 'Token was expired or not match',
+    'msg_success_export' 	=> 'Records Exported Successfully!',
+    'msg_success_export_err' => 'Error : Records Not Exported',
+    'msg_delete_image' 		=> 'Image deleted successfully',
+    'msg_delete_image_err' 	=> 'Cannot Delete Image, Please Try Again',
+    'msg_progect_title' 	=> 'Project Name is already exists',
+    'msg_bug_title' 		=> 'Bug Title is already exists',
+    'msg_delete_material' 		=> 'Mterial deleted successfully',
+    'msg_delete_material_err' 	=> 'Cannot Delete Mterial, Please Try Again',
+    'msg_delete_image_asset' 		=> 'Image Asset deleted successfully',
+    'msg_delete_image_asset_err' 	=> 'Cannot Delete Image Asset, Please Try Again',
+    'msg_rank' 		=> 'Record(s) Rank Updated Successfully',
+    'msg_update_lift_gate_settings' => 'Record(s) Lift Settings Updated Successfully',
+    'msg_rank_err' 		=> 'Cannot Update Rank, Please Try Again',
+    'referral_msg' => 'Please contact administrator to get referral URL	',
+    'msg_tax_import' =>'Tax Rules & Rate Imported Successfully.',
+    'msg_tax_import_err' =>'Tax Rules & Rate Import Failed.',
+    'msg_column_err' => 'Please follow the sample csv format for required columns,',
+];

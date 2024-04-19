@@ -1,0 +1,42 @@
+/*.static-page{padding-bottom:30px;}
+.static-page .container{max-width:1130px;}
+.static-page .breadcrumb+.static-hd{padding-top:5px;}
+.static-hd{padding-top:20px;}
+.static-con{padding-top:20px;}*/
+.brandpage .container{max-width:1530px;}
+.brandpage h4{margin:0px;padding:0px;} 
+.brandpage .brand-hd{display:flex;justify-content:space-between;align-items:center;padding-bottom:20px;}
+
+.brand-featured{border-top:1px solid var(--dark-grey);border-bottom:1px solid var(--dark-grey);padding:30px 0px;margin-bottom:30px;}
+.brand-featured h4{padding-bottom:20px;}
+
+.alphabets1{margin:0px;padding:10px;border-bottom:1px solid var(--dark-grey);}
+.alphabets1 .alphalist-inner{max-width:1500px;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:space-between;}
+.alphabets1 a{display:inline-block;padding:5px 0;text-align:center;width:27px;height:27px;line-height:17px;font-weight:300;margin:2px;font-size:1.429em;}
+.alphabets1 a:hover, .alphabets1 a.active{font-weight:700;}
+.alphabets1.alph-fixed{margin-top:0 !important;background:var(--white);position:fixed;top:128px;z-index:98;animation-name:slideDown;-webkit-animation-name:slideDown;animation-duration:1.2s;-webkit-animation-duration:1.2s;animation-timing-function:ease;-webkit-animation-timing-function:ease;visibility:visible !important;width:100%;left:0;}
+
+.alpha-bot-box{display:grid;grid-template-columns:2fr 10fr;padding:40px 0;border-bottom:1px solid var(--dark-grey);}
+.alpha-bot-box .alpha-type{scroll-padding-top:150px;}
+.alpha-bot-box .alpha-type{font-size:1.286em;font-weight:bold;}
+.alpha-bot-box .alpha-type a{color:var(--black);display:block;}
+.alpha-bot-box .alpha-type a:target{padding-top:0px;}
+.alpha-bot-box .alpha-type a:hover{text-decoration:none;}
+.alpha-bot-box .alpha-cat{float:left;width:100%;}
+.alpha-bot-box .alpha-cat ul{float:left;width:100%;margin:0;padding:0;}
+.alpha-bot-box .alpha-cat ul li{float:left;line-height:16px;width:20%;padding:5px;font-size:1.143em;font-weight:300;list-style:none;}
+
+@media (max-width:1024px){
+.alphabets1 .alphalist-inner{justify-content:center;}
+.alphabets1 a{width:25px;height:25px;font-size:1.143em;}
+.alphabets1.alph-fixed{top:57px;}  
+.alpha-bot-box{padding:30px 0;} 
+}
+@media (max-width:767px){
+.brandpage .brand-hd{ display:block;}
+.brandpage .brand-hd .header_search{max-width:100%;margin-top:15px;}
+.alpha-bot-box .alpha-cat ul li{width:33.33%;font-size:1.000em;} 
+}
+@media (max-width:480px){
+.alpha-bot-box .alpha-cat ul li{width:50%;} 
+}

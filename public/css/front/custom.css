@@ -1,0 +1,36 @@
+#page-spinner{position:fixed;width:100%;left:0;right:0;top:0;bottom:0;background-color: rgba(255, 255, 255, 0.7);z-index:9999;display:none;}
+@-webkit-keyframes spin {from {-webkit-transform: rotate(0deg);}to{-webkit-transform: rotate(360deg);}}
+@keyframes spin{from{transform: rotate(0deg);}to{transform: rotate(360deg);}}
+#page-spinner::after{content:'';display:block;position:absolute;left:48%;top:40%;width:40px;height:40px;border-style:solid;border-color:black;border-top-color:transparent;border-width:4px;border-radius:50%;-webkit-animation: spin .8s linear infinite;animation:spin .8s linear infinite;}
+.frmerror_shw{color:var(--red);display:block;font-size:14px;line-height: 15px;margin:5px 0 5px;}
+.frmsuccess{color:var(--tealish-green);font-size:14px;line-height: 15px;margin:5px 0 5px;}
+.text-center{text-align: center !important;}
+.frmerror{color:var(--red);display:none;font-size:12px;line-height: 15px;margin:5px 0 0;}
+#myModalPopUpLogin form#frmproduct{margin-right: 0;margin-left:0;}
+.modal-header{display: block !important;}
+.color-dot{height:40px;width:40px;background-color: rgba(126, 112, 160, 0.527);border-radius:50%;display:block;}
+div#myModalPopUpLogin{z-index: 99999;}
+/*#myModalPopUpLogin .modal-dialog.modal-lg.modal-dialog-centered.modal-dialog-scrollable,
+form#frmcategory, .modal-content{box-shadow: 0 19px 38px rgb(0 0 0 / 30%), 0 15px 12px rgb(0 0 0 / 22%);}*/
+/* added for the shop the look page */
+@media screen and (min-width: 1400px) {.shopthelook{width: 20% !important;}}
+.swatch-attribute.color .swatch-option{border-radius: none !important;}
+div#tell-friend-modal{z-index: 99999;}
+.salemenucss{color: var(--tealish-green)!important;font-size: 18px!important;font-weight: 500!important;line-height: 22px!important; }
+
+@media (min-width:992px){
+    .salemenucss-link{ /*border-top: 1px solid #cbcbcb; border-bottom: 1px solid #cbcbcb;*/margin: 5px 0px; text-align: center;}
+    .salemenucss-link a.salemenucss { text-decoration: underline; text-align: center;display: block; width:100%; color: #fff !important; font-size:16px!important;line-height:40px!important; background-color: #ED407D;}
+    .salemenucss-link a.salemenucss span{ text-transform: lowercase;}
+    .salemenucss-link a.salemenucss:hover{ text-decoration: none;}
+}
+
+
+
+.viewmore_link{text-decoration: underline; }
+#success_bottom_email{color: var(--tealish-green) !important;}
+#error_bottom_email{margin-top:5px!important}
+
+.dfflex{display:flex;align-items:center;justify-content:space-between;}
+.buy_now_error{text-align: center;color: red;}
+.pnf_text{font-size: 19px;font-weight: 400;}

@@ -1,0 +1,30 @@
+.static-page{ padding-bottom:30px;}
+.static-page .container{max-width:1130px;}
+.static-page .breadcrumb+.static-hd{padding-top:5px;}
+.static-hd{padding-top:20px; text-transform: capitalize;}
+.static-con{ padding-top:20px;}
+
+
+.static-inner{padding-bottom:50px;padding-top: 25px;}
+.static-inner a.text_c1:hover{color:var(--twilight) !important;text-decoration:none;}
+.static-inner .order_list{margin:0px;padding:0px;}
+.static-inner .order_list >li{list-style:none;}
+.f50width{width:50%;}
+
+
+.sitemap-box h4{ margin-bottom:15px; font-weight:300;}
+.sitemap-box a:hover{ text-decoration: underline;}
+
+/* Contact Us page */
+.contact_us .loop{position:relative; padding:15px 0px 15px 30px;}
+.contact_us .loop:not(:last-child){border-bottom:1px solid #bbbbbb;}
+.contact_us .loop svg{stroke:#30303F; position:absolute; left:0px; top:15px;}
+.contact_us .loop .h6{margin:0px 0px 5px;font-size:1.143em;line-height:normal;}
+.contact_us .map_con{border:1px solid #bbbbbb; padding:5px; margin-top:20px;}
+
+/**/
+.maplist{padding-bottom:20px;}
+.maplist .hds{font-weight:500;font-size:14px;line-height:14px;padding-bottom:10px;}
+.maplist ul{ margin:0px;}
+.maplist ul li{}
+.maplist ul li a:hover{ text-decoration:underline;color: var(--twilight);}
